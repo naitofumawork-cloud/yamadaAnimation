@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // ルートアクセスでindex.htmlを返す
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/html/entrance.html'));//パス指定
+  res.sendFile(path.join(__dirname, '../public/html/index.html'));//パス指定
 });
 
 // サーバー起動
