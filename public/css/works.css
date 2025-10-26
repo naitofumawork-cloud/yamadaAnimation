@@ -1,0 +1,18 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.part .picture img{
+ width: 400px;
+  
+  object-fit: cover;
+}

@@ -1,0 +1,29 @@
+main {
+  
+  margin: 0 auto;
+}
+
+#mainVisual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+
+}
+
+#mainVisual .sentence {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#mainVisual .picture {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+#mainVisual .sentence p {
+  max-width: 1000px;
+  max-height:1000px;
+  text-align: center;
+}
